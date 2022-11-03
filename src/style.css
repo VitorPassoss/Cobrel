@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.text{
+    color: white !important;
+}
+
+.mobile{
+    display: none !important;
+}
+
+
+.nav-item{
+    margin-right: 30px !important;
+    font-size: 20px;
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter{
+    background-color: black !important;
+    width: 100%;
+    height: 750px ;
+    opacity: 0.4;
+
+
+  
+}
+
+.imgbg{
+    background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position-y:30% ;
+}
+
+.imgbg2{
+    background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position-y:70% ;
+}
+
+.imgbg3{
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position-y:30% ;
+}
+
+.fine-line{
+    background-color: black;
+    width: 100%;
+    height: 10px;
+}
+
+
+.logo{
+    position: absolute;
+    top: 5px;
+    width: 130px;
+    height: 60px;
+    left: 100px;
+
+  
+  
+}
+
+
