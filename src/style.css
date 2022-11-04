@@ -1,9 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-
+    
 }
 
+body{
+    height: 10000px;
+}
 
 .text{
     color: white !important;
@@ -31,15 +34,12 @@
     width: 100%;
     height: 750px ;
     opacity: 0.4;
-
-
-  
 }
 
 .imgbg{
     background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
     width: 100%;
-    height: 750px;
+    height: 650px;
     background-size: cover;
     background-position-y:30% ;
 }
@@ -47,7 +47,7 @@
 .imgbg2{
     background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
     width: 100%;
-    height: 750px;
+    height: 650px;
     background-size: cover;
     background-position-y:70% ;
 }
@@ -55,7 +55,7 @@
 .imgbg3{
     background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
     width: 100%;
-    height: 750px;
+    height: 650px;
     background-size: cover;
     background-position-y:30% ;
 }
@@ -70,12 +70,120 @@
 .logo{
     position: absolute;
     top: 5px;
-    width: 130px;
-    height: 60px;
-    left: 100px;
+    width: 100px;
+    height: 45px;
+    left: 150px;
+    transition: 1s;
+}
+
+.logo2{
+    position: absolute;
+    top: 5px;
+    width: 100px;
+    height: 45px;
+    left: 150px;
+    display: none;
+    transition: 1s;
+}
+
+
+
+.card{
+    width: 100%;
+    height: 330px;
+    background-image: url(../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);
+    background-size: cover;
+    
+}
+.filter2{
+    background-color: rgb(0, 0, 0) !important;
+    width: 100%;
+    height: 100% ;
+    opacity: 0.7;
+    z-index: 1;
+    position: absolute;
+}
+
+.center-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    z-index: 2;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.text-cards{
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    z-index: 4;
+    font-size: 20px;
+    margin: 0px !important;
+
+}
+
+.more-icon{
+    transition: all 0.3s;
+    z-index: 5;
 
   
-  
+}
+
+.bi-plus-circle-fill{
+    color: white;
+
+    font-size: 0px;
+    transition: 0.3s;
+        z-index: 7;
+
+}
+
+
+
+
+.card:hover .bi-plus-circle-fill{
+
+    display: flex;
+    transition: 0.3s;
+    font-size: 35px;
+
+}
+
+.card:hover .icon{
+    padding-top: 10%;
+}
+
+
+.carolsel-indice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.carolsel-size{
+    width: 80%;
+}
+
+.opacity-100{
+    opacity: 1 !important;
+}
+
+
+.carousel-control-next-icon{
+    border-radius: 50% !important;
+    padding: 20px !important;
+}
+
+.carousel-control-prev-icon{
+    border-radius: 50% !important;
+    padding: 20px !important;
 }
 
 
