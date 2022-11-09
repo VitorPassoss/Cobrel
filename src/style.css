@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,7 +7,23 @@
 
 body{
     height: 10000px;
+    background-color: #EFEFEF !important;
 }
+
+@font-face {
+    font-family: poppinsbold;
+    src: url(./fonts/FontsFree-Net-Poppins-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: poppingsli;
+    src: url(./fonts/FontsFree-Net-Poppins-Medium.ttf);
+ }
+
+ .titulo-header{
+    font-family: poppinsbold;
+    font-weight:800;
+ }
 
 .text{
     color: white !important;
@@ -29,17 +46,27 @@ body{
     align-items: center;
 }
 
+.carousel-caption{
+    top: 255px !important;
+}
+.btn-header{
+    background-color: white !important;
+    box-shadow: -3px 0px #DE1315;
+}
+
+
 .filter{
     background-color: black !important;
     width: 100%;
-    height: 750px ;
+    height: 670px ;
     opacity: 0.4;
 }
+
 
 .imgbg{
     background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
     width: 100%;
-    height: 650px;
+    height: 670px;
     background-size: cover;
     background-position-y:30% ;
 }
@@ -47,7 +74,7 @@ body{
 .imgbg2{
     background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
     width: 100%;
-    height: 650px;
+    height: 670px;
     background-size: cover;
     background-position-y:70% ;
 }
@@ -55,7 +82,7 @@ body{
 .imgbg3{
     background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
     width: 100%;
-    height: 650px;
+    height: 670px;
     background-size: cover;
     background-position-y:30% ;
 }
@@ -86,15 +113,15 @@ body{
     transition: 1s;
 }
 
-
-
 .card{
+    border-radius: 50px ;
     width: 100%;
-    height: 330px;
+    height: 300px;
     background-image: url(../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);
     background-size: cover;
-    
+    border-radius: 25px !important;
 }
+
 .filter2{
     background-color: rgb(0, 0, 0) !important;
     width: 100%;
@@ -102,8 +129,17 @@ body{
     opacity: 0.7;
     z-index: 1;
     position: absolute;
+    border-radius: 25px !important;
 }
 
+.iconsize{
+    width: 60.85px;
+    height: 60.75px;
+}
+.iconsize2{
+    width: 80.85px;
+    height: 60.75px;
+}
 .center-icon{
     display: flex;
     flex-direction: column;
@@ -112,7 +148,7 @@ body{
 
 .icon{
     z-index: 2;
-    padding-top: 15%;
+    padding-top: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +192,7 @@ body{
 }
 
 .card:hover .icon{
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 
@@ -175,15 +211,1173 @@ body{
     opacity: 1 !important;
 }
 
-
-.carousel-control-next-icon{
-    border-radius: 50% !important;
+.btn2-d .carousel-control-next-icon{
+    background-color: #DE1315 !important;
+    border-radius: 50%;
     padding: 20px !important;
+    margin-left: 190px !important;
+}
+.btn2-d .carousel-control-prev-icon{
+    background-color: #DE1315 !important;
+    border-radius: 100%;
+    padding: 10px !important;
+    padding: 20px !important;
+    margin-left: -190px !important;
 }
 
-.carousel-control-prev-icon{
-    border-radius: 50% !important;
-    padding: 20px !important;
+.divmain{
+    z-index: 1000;
+}
+
+.primary-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-primary{
+    width: 75%;
+    height: 400px;
+    background-color:white;
+    border-top: none;
+    box-shadow: 0px 2px 10px black;
+    margin-top: 65px;
+   
 }
 
 
+
+.block1{
+    background-image: url(/img/Group\ 6.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.block2{
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+}
+
+.card-inf{
+    width: 100%;
+    height: 160px;
+    border: 1px solid rgb(220, 220, 220);
+    margin: 10px;
+    
+}
+
+.indice-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indice{
+    width: 75%;
+    height: 450px;
+    background-color:white;
+    border-top: none;
+    box-shadow: 0px 2px 10px black;
+    margin-top: 65px;
+    padding-top: 80px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.logobg{
+    width: 100%;
+    height: 1500px;
+    background-image: url(/img/bg.png);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 580px;
+    left: -250px;
+
+
+}
+
+
+.middleware{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.automation-div{
+    width: 75%;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.img-automation{
+    background-image: url(/img/Rectangle\ 55.png);
+    width: 100%;
+    height: 450px;
+    background-position-x:90% ;
+    background-size: cover;
+}
+
+.text-automation{
+    width: 100%;
+    height: 450px;
+    padding-left: 50px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo-automation{
+    font-family: poppinsbold;
+    font-size: 38px;
+}
+
+.p-automation{
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;   
+}
+
+.button-middleware{
+    border: 2px solid black;
+    padding: 0px 40px 0px 40px ;
+}
+
+.arrow-size{
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+}
+
+.text-more{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+@media (min-width:1922px){
+    .titulo-header{
+        font-family: poppinsbold;
+        font-weight:800;
+     }
+    
+    .text{
+        color: white !important;
+    }
+    
+    .mobile{
+        display: none !important;
+    }
+    
+    
+    .nav-item{
+        margin-right: 30px !important;
+        font-size: 20px;
+    }
+    
+    
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carousel-caption{
+        top: 350px !important;
+    }
+    .btn-header{
+        background-color: white !important;
+        box-shadow: -3px 0px #DE1315;
+    }
+    
+    
+    .filter{
+        background-color: black !important;
+        width: 100%;
+        height: 900px ;
+        opacity: 0.4;
+    }
+    
+    
+    .imgbg{
+        background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .imgbg2{
+        background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:70% ;
+    }
+    
+    .imgbg3{
+        background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .fine-line{
+        background-color: black;
+        width: 100%;
+        height: 10px;
+    }
+    
+    
+    .logo{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        transition: 1s;
+    }
+    
+    .logo2{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        display: none;
+        transition: 1s;
+    }
+    
+    .card{
+        border-radius: 50px ;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);
+        background-size: cover;
+        border-radius: 25px !important;
+    }
+    
+    .filter2{
+        background-color: rgb(0, 0, 0) !important;
+        width: 100%;
+        height: 100% ;
+        opacity: 0.7;
+        z-index: 1;
+        position: absolute;
+        border-radius: 25px !important;
+    }
+    
+    .iconsize{
+        width: 60.85px;
+        height: 60.75px;
+    }
+    .iconsize2{
+        width: 80.85px;
+        height: 60.75px;
+    }
+    .center-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon{
+        z-index: 2;
+        padding-top: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .text-cards{
+        text-align: center;
+        color: rgb(255, 255, 255) !important;
+        z-index: 4;
+        font-size: 20px;
+        margin: 0px !important;
+    
+    }
+    
+    .more-icon{
+        transition: all 0.3s;
+        z-index: 5;
+    
+      
+    }
+    
+    .bi-plus-circle-fill{
+        color: white;
+    
+        font-size: 0px;
+        transition: 0.3s;
+            z-index: 7;
+    
+    }
+    
+    
+    
+    
+    .card:hover .bi-plus-circle-fill{
+    
+        display: flex;
+        transition: 0.3s;
+        font-size: 35px;
+    
+    }
+    
+    .card:hover .icon{
+        padding-top: 25%;
+    }
+    
+    
+    .carolsel-indice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .carolsel-size{
+        width: 80%;
+    }
+    
+    .opacity-100{
+        opacity: 1 !important;
+    }
+    
+    .btn2-d .carousel-control-next-icon{
+        background-color: #DE1315 !important;
+        border-radius: 50%;
+        padding: 20px !important;
+        margin-left: 190px !important;
+    }
+    .btn2-d .carousel-control-prev-icon{
+        background-color: #DE1315 !important;
+        border-radius: 100%;
+        padding: 10px !important;
+        padding: 20px !important;
+        margin-left: -190px !important;
+    }
+    
+    .divmain{
+        z-index: 1000;
+    }
+    
+    .primary-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-primary{
+        width: 60%;
+        height: 600px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+       
+    }
+    
+    
+    
+    .block1{
+        background-image: url(/img/Group\ 6.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        
+    }
+    
+    .block2{
+        width: 100%;
+        height: 600px;
+        padding-top: 15px;
+        margin-top: 70px !important
+    }
+    
+    .card-inf{
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgb(220, 220, 220);
+        margin: 10px;
+        
+    }
+    
+    .indice-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .indice{
+        width: 60%;
+        height: 500px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+        padding-top: 80px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    
+    .logobg{
+        width: 100%;
+        height: 1500px;
+        background-image: url(/img/bg.png);
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        top: 580px;
+        left: -250px;
+    
+    
+    }
+    
+    
+    .middleware{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .automation-div{
+        width: 65%;
+        height: 450px;
+        margin-top: 70px;
+    }
+    
+    .img-automation{
+        background-image: url(/img/Rectangle\ 55.png);
+        width: 100%;
+        height: 450px;
+        background-position-x:90% ;
+        background-size: cover;
+    }
+    
+    .text-automation{
+        width: 100%;
+        height: 450px;
+        padding-left: 50px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .titulo-automation{
+        font-family: poppinsbold;
+        font-size: 38px;
+    }
+    
+    .p-automation{
+        font-size: 25px;
+        font-family: poppins, sans-serif;
+        font-weight: 300;
+        font-style: normal;   
+    }
+    
+    .button-middleware{
+        border: 2px solid black;
+        padding: 0px 40px 0px 40px ;
+    }
+    
+    .arrow-size{
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+    
+    .text-more{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+}
+
+@media (min-width:1680px) and (max-width: 1921px){
+    .titulo-header{
+        font-family: poppinsbold;
+        font-weight:800;
+     }
+    
+    .text{
+        color: white !important;
+    }
+    
+    .mobile{
+        display: none !important;
+    }
+    
+    
+    .nav-item{
+        margin-right: 30px !important;
+        font-size: 20px;
+    }
+    
+    
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carousel-caption{
+        top: 350px !important;
+    }
+    .btn-header{
+        background-color: white !important;
+        box-shadow: -3px 0px #DE1315;
+    }
+    
+    
+    .filter{
+        background-color: black !important;
+        width: 100%;
+        height: 900px ;
+        opacity: 0.4;
+    }
+    
+    
+    .imgbg{
+        background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .imgbg2{
+        background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:70% ;
+    }
+    
+    .imgbg3{
+        background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .fine-line{
+        background-color: black;
+        width: 100%;
+        height: 10px;
+    }
+    
+    
+    .logo{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        transition: 1s;
+    }
+    
+    .logo2{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        display: none;
+        transition: 1s;
+    }
+    
+    .card{
+        border-radius: 50px ;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);
+        background-size: cover;
+        border-radius: 25px !important;
+    }
+    
+    .filter2{
+        background-color: rgb(0, 0, 0) !important;
+        width: 100%;
+        height: 100% ;
+        opacity: 0.7;
+        z-index: 1;
+        position: absolute;
+        border-radius: 25px !important;
+    }
+    
+    .iconsize{
+        width: 60.85px;
+        height: 60.75px;
+    }
+    .iconsize2{
+        width: 80.85px;
+        height: 60.75px;
+    }
+    .center-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon{
+        z-index: 2;
+        padding-top: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .text-cards{
+        text-align: center;
+        color: rgb(255, 255, 255) !important;
+        z-index: 4;
+        font-size: 20px;
+        margin: 0px !important;
+    
+    }
+    
+    .more-icon{
+        transition: all 0.3s;
+        z-index: 5;
+    
+      
+    }
+    
+    .bi-plus-circle-fill{
+        color: white;
+    
+        font-size: 0px;
+        transition: 0.3s;
+            z-index: 7;
+    
+    }
+    
+    
+    
+    
+    .card:hover .bi-plus-circle-fill{
+    
+        display: flex;
+        transition: 0.3s;
+        font-size: 35px;
+    
+    }
+    
+    .card:hover .icon{
+        padding-top: 25%;
+    }
+    
+    
+    .carolsel-indice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .carolsel-size{
+        width: 80%;
+    }
+    
+    .opacity-100{
+        opacity: 1 !important;
+    }
+    
+    .btn2-d .carousel-control-next-icon{
+        background-color: #DE1315 !important;
+        border-radius: 50%;
+        padding: 20px !important;
+        margin-left: 190px !important;
+    }
+    .btn2-d .carousel-control-prev-icon{
+        background-color: #DE1315 !important;
+        border-radius: 100%;
+        padding: 10px !important;
+        padding: 20px !important;
+        margin-left: -190px !important;
+    }
+    
+    .divmain{
+        z-index: 1000;
+    }
+    
+    .primary-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-primary{
+        width: 65%;
+        height: 600px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+       
+    }
+    
+    
+    
+    .block1{
+        background-image: url(/img/Group\ 6.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        
+    }
+    
+    .block2{
+        width: 100%;
+        height: 600px;
+        padding-top: 15px;
+        margin-top: 70px !important
+    }
+    
+    .card-inf{
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgb(220, 220, 220);
+        margin: 10px;
+        
+    }
+    
+    .indice-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .indice{
+        width: 65%;
+        height: 450px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+        padding-top: 80px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    
+    .logobg{
+        width: 100%;
+        height: 1500px;
+        background-image: url(/img/bg.png);
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        top: 580px;
+        left: -250px;
+    
+    
+    }
+    
+    
+    .middleware{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .automation-div{
+        width: 65%;
+        height: 450px;
+        margin-top: 70px;
+    }
+    
+    .img-automation{
+        background-image: url(/img/Rectangle\ 55.png);
+        width: 100%;
+        height: 450px;
+        background-position-x:90% ;
+        background-size: cover;
+    }
+    
+    .text-automation{
+        width: 100%;
+        height: 450px;
+        padding-left: 50px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .titulo-automation{
+        font-family: poppinsbold;
+        font-size: 38px;
+    }
+    
+    .p-automation{
+        font-size: 25px;
+        font-family: poppins, sans-serif;
+        font-weight: 300;
+        font-style: normal;   
+    }
+    
+    .button-middleware{
+        border: 2px solid black;
+        padding: 0px 40px 0px 40px ;
+    }
+    
+    .arrow-size{
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+    
+    .text-more{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width:1440px) and (max-width: 1680px){
+    .titulo-header{
+        font-family: poppinsbold;
+        font-weight:800;
+     }
+    
+    .text{
+        color: white !important;
+    }
+    
+    .mobile{
+        display: none !important;
+    }
+    
+    
+    .nav-item{
+        margin-right: 30px !important;
+        font-size: 20px;
+    }
+    
+    
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carousel-caption{
+        top: 305px !important;
+    }
+    .btn-header{
+        background-color: white !important;
+        box-shadow: -3px 0px #DE1315;
+    }
+    
+    
+    .filter{
+        background-color: black !important;
+        width: 100%;
+        height: 790px ;
+        opacity: 0.4;
+    }
+    
+    
+    .imgbg{
+        background-image: url('../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg');
+        width: 100%;
+        height: 790px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .imgbg2{
+        background-image: url('https://img.freepik.com/fotos-premium/mao-de-close-up-de-engenharia-eletrica-usando-medicao-para-verificacao-de-eletricidade_101448-2957.jpg?w=996');
+        width: 100%;
+        height: 790px;
+        background-size: cover;
+        background-position-y:70% ;
+    }
+    
+    .imgbg3{
+        background-image: url('https://as1.ftcdn.net/v2/jpg/04/76/59/98/1000_F_476599804_aePB1Kd6iqbbTP8bAWKnDqihDrrESXxz.jpg');
+        width: 100%;
+        height: 790px;
+        background-size: cover;
+        background-position-y:30% ;
+    }
+    
+    .fine-line{
+        background-color: black;
+        width: 100%;
+        height: 10px;
+    }
+    
+    
+    .logo{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        transition: 1s;
+    }
+    
+    .logo2{
+        position: absolute;
+        top: 5px;
+        width: 100px;
+        height: 45px;
+        left: 150px;
+        display: none;
+        transition: 1s;
+    }
+    
+    .card{
+        border-radius: 50px ;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);
+        background-size: cover;
+        border-radius: 25px !important;
+    }
+    
+    .filter2{
+        background-color: rgb(0, 0, 0) !important;
+        width: 100%;
+        height: 100% ;
+        opacity: 0.7;
+        z-index: 1;
+        position: absolute;
+        border-radius: 25px !important;
+    }
+    
+    .iconsize{
+        width: 60.85px;
+        height: 60.75px;
+    }
+    .iconsize2{
+        width: 80.85px;
+        height: 60.75px;
+    }
+    .center-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon{
+        z-index: 2;
+        padding-top: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .text-cards{
+        text-align: center;
+        color: rgb(255, 255, 255) !important;
+        z-index: 4;
+        font-size: 20px;
+        margin: 0px !important;
+    
+    }
+    
+    .more-icon{
+        transition: all 0.3s;
+        z-index: 5;
+    
+      
+    }
+    
+    .bi-plus-circle-fill{
+        color: white;
+    
+        font-size: 0px;
+        transition: 0.3s;
+            z-index: 7;
+    
+    }
+    
+    
+    
+    
+    .card:hover .bi-plus-circle-fill{
+    
+        display: flex;
+        transition: 0.3s;
+        font-size: 35px;
+    
+    }
+    
+    .card:hover .icon{
+        padding-top: 25%;
+    }
+    
+    
+    .carolsel-indice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .carolsel-size{
+        width: 80%;
+    }
+    
+    .opacity-100{
+        opacity: 1 !important;
+    }
+    
+    .btn2-d .carousel-control-next-icon{
+        background-color: #DE1315 !important;
+        border-radius: 50%;
+        padding: 20px !important;
+        margin-left: 190px !important;
+    }
+    .btn2-d .carousel-control-prev-icon{
+        background-color: #DE1315 !important;
+        border-radius: 100%;
+        padding: 10px !important;
+        padding: 20px !important;
+        margin-left: -190px !important;
+    }
+    
+    .divmain{
+        z-index: 1000;
+    }
+    
+    .primary-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .div-primary{
+        width: 70%;
+        height: 500px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+       
+    }
+    
+    
+    
+    .block1{
+        background-image: url(/img/Group\ 6.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+    
+    .block2{
+        width: 100%;
+        height: 500px;
+        padding: 45px;
+    }
+    
+    .card-inf{
+        width: 100%;
+        height: 160px;
+        border: 1px solid rgb(220, 220, 220);
+        margin-top: 20px;
+        
+    }
+    
+    .indice-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .indice{
+        width: 70%;
+        height: 450px;
+        background-color:white;
+        border-top: none;
+        box-shadow: 0px 2px 10px black;
+        margin-top: 65px;
+        padding-top: 80px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    
+    .logobg{
+        width: 100%;
+        height: 1500px;
+        background-image: url(/img/bg.png);
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        top: 580px;
+        left: -250px;
+    
+    
+    }
+    
+    
+    .middleware{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .automation-div{
+        width: 70%;
+        height: 450px;
+        margin-top: 70px;
+    }
+    
+    .img-automation{
+        background-image: url(/img/Rectangle\ 55.png);
+        width: 100%;
+        height: 450px;
+        background-position-x:90% ;
+        background-size: cover;
+    }
+    
+    .text-automation{
+        width: 100%;
+        height: 450px;
+        padding-left: 50px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .titulo-automation{
+        font-family: poppinsbold;
+        font-size: 38px;
+    }
+    
+    .p-automation{
+        font-size: 25px;
+        font-family: poppins, sans-serif;
+        font-weight: 300;
+        font-style: normal;   
+    }
+    
+    .button-middleware{
+        border: 2px solid black;
+        padding: 0px 40px 0px 40px ;
+    }
+    
+    .arrow-size{
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+    
+    .text-more{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+}
